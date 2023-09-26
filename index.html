@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="title">
+        <h2>FOOD ITEMS AND IT's CATEGORIES</h2>
+    </div>
+    <div id="contents">
+        <ul>
+            <li onclick="fooditems()">All Food Items</li>
+            <li onclick="fooditems('Vegetable')">Vegetables</li>
+            <li onclick="fooditems('Fruit')">Fruits</li>
+            <li onclick="fooditems('Protein')">Protein Food</li>
+            <li onclick="fooditems('Nuts')">Nuts</li>
+            <li onclick="fooditems('Grain')">Grains</li>
+            <li onclick="fooditems('Dairy')">Dairy</li>
+            <li onclick="Calorie('above')">Calorie above 100</li>
+            <li onclick="Calorie('below')">Calorie below 100</li>
+            <li onclick="Sort('protein')">Protein Content High to low</li>
+            <li onclick="Sort('cab')">Cab content low to High</li>
+        </ul>
+    </div>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Food Name</th>
+                    <th>Calories</th>
+                    <th>Category</th>
+                    <th>Proteins</th>
+                    <th>Cab</th>
+                </tr>
+            </thead>
+            
+            <tbody></tbody>       
+        </table>
+    </main>
+    <script type="module" src="./script.js"></script> >
+</body>
+
+</html>
