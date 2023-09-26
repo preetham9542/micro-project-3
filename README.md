@@ -1,1 +1,2 @@
-# micro-project-3
+# Micro-project-3
+An Introductionary problem statements on javascript where the project only focuses on usage of MAP,FILTER,REDUCE functions namely Higher Order Functions of Array. The problem statements solved above includes very basic knowledge/concepts of JavaScript.It has been updated and made interactive later by including some part of HTML and JavaScript,Where you choose what kind of data to be appeared based on mentioned specific conditions o the left.The following link takes you to the Notion site which furthur has description of the problem statements. https://momentous-nerine-3a5.notion.site/Food-Chart-f37d30461e9249a2aefd8d7fd7a010af?pvs=4
